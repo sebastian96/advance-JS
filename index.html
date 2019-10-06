@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Video</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            background: linear-gradient(180deg, rgb(245, 147, 147), rgb(49, 49, 49));
+            height: 100vh;
+        }
+        video {
+            display: block;
+            width: 70%;
+            margin: 50px auto;
+        }
+        button {
+            display: block;
+            margin: 0 auto;
+            border: none;
+            padding: 15px 20px;
+            background: rgb(238, 40, 40);
+            font-size: 18px;
+            font-family: Arial;
+            border-radius: 15px;
+            color: #fff;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <video src="./assets/video/video.mp4"></video>
+    <button>Play / Pause</button>
+    <script src="./assets/js/index.js"></script>
+</body>
+</html>
