@@ -20,6 +20,11 @@
             width: 70%;
             margin: 50px auto;
         }
+        .controls {
+            display: flex;
+            justify-content: center;
+
+        }
         button {
             display: block;
             margin: 0 auto;
@@ -36,7 +41,10 @@
 </head>
 <body>
     <video src="./assets/video/video.mp4"></video>
-    <button>Play / Pause</button>
+    <div class="controls">
+        <button id="play">Play / Pause</button>
+        <button id="muted">muted / unmuted</button>
+    </div>
     <script type="module" src="./assets/js/index.js"></script>
 </body>
 </html>
