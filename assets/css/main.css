@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: linear-gradient(180deg, rgb(245, 147, 147), rgb(49, 49, 49));
+    font-family: Arial;
+    font-size: 17px;
+}
+video {
+    display: block;
+    width: 90%;
+    margin: 50px auto;
+}
+.controls {
+    display: flex;
+    justify-content: center;
+
+}
+button {
+    display: block;
+    margin: 0 auto;
+    border: none;
+    padding: 15px 20px;
+    background: rgb(238, 40, 40);
+    font-size: 18px;
+    font-family: Arial;
+    border-radius: 15px;
+    color: #fff;
+    cursor: pointer;
+}
+.comments {
+    width: 80%;
+    display: block;
+    margin: 15px auto;
+    text-align: justify;
+}
+.comments p {
+    background: rgba(255, 255, 255, .3);
+    padding: 10px;
+    margin: 10px 0;
+}
