@@ -8,9 +8,15 @@
     "Platzi Video"
   ],
   "scripts": {
-    "start": "live-server"
+    "start": "parcel index.html"
   },
   "devDependencies": {
-    "live-server": "^1.2.1"
-  }
+    "live-server": "^1.2.1",
+    "parcel-bundler": "^1.12.4",
+    "typescript": "^3.7.2"
+  },
+  "browserslist": [
+    "last 1 Chrome version"
+  ],
+  "dependencies": {}
 }
